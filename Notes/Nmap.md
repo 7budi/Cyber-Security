@@ -16,3 +16,6 @@ It is crucial to enumerate this sizeable potential attack surface carefully. `Nm
 SMB allows users and administrators to share folders and make them accessible remotely by others users.
 Often these shares have files in them that contain sensitive information such as passwords.
 A tool that can enumerate and interact with SMB shares is [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html). The `-L` flag specifies that we want to retrieve a list of available shares on the remote host, while `-N` suppresses the password prompt.
+
+## SNMP
+SNMP Community strings provide information and statistics about a router or device, helping us gain access to it.
