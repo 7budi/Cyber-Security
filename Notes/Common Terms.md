@@ -29,4 +29,15 @@ UDP utilizes a connection-less model. There is no "handshake" and therefore intr
 |`3389` (TCP)|`RDP`|
 
 # What is a Web Server
-A web-server is a back-end application that handles all the HTTP traffic from the client-side browser, route it to the request destination page, finally responeds to the client-sid
+A web-server is a back-end application that handles all the HTTP traffic from the client-side browser, route it to the request destination page, finally responds to the client-side browser.\
+
+Web servers usually run on TCP ports `80` or `443`, and are responsible for connecting end-users to various parts of the web application.
+Ports are numbered from 0 to 65,535.
+The first 1024 ports (0-1023) are considered "well-known" ports and are reserved for common protocols and applications.
+A network protocol is a set of rules and standards that define how data is transmitted between devices on a computer network. The protocol specifies the format, timing, sequencing, and error checking methods used for the exchange of data.
+
+network protocols define the rules and formats for network communication, while ports act as the logical endpoints or interfaces where this communication occurs.
+
+# Using Netcat
+[Netcat](https://linux.die.net/man/1/nc), `ncat`, or `nc`, is an excellent network utility for interacting with TCP/UDP ports. It can be used for many things during a pentest. Its primary usage is for connecting to shells.
+In addition to that, `netcat` can be used to connect to any listening port and interact with the service running on that port. For example, `SSH` is programmed to handle connections over port 22 to send all data and keys.
