@@ -8,3 +8,7 @@ The -sV parameter instructs Nmap to perform a version scan.
 #  Attacking Network Services
 ## FTP
 FTP(File transfer Protocol) is a standard protocol, and this service can often contain interesting data.
+## SMB
+SMB(Server Message Block) is a prevalent protocol on Windows machines that provides many vectors  for vertical and lateral movements.
+Sensitive data, including credentials(is the information required to authenticate and authorize a user, device, or application to access a specific resource or service.), can be in network file shares, and some SMB versions may be vulnerable to RCE exploits such as [EternalBlue](https://www.avast.com/c-eternalblue). 
+It is crucial to enumerate this sizeable potential attack surface carefully. `Nmap` has many scripts for enumerating(is the process of gathering information about a target system or network) SMB, such as [smb-os-discovery.nse](https://nmap.org/nsedoc/scripts/smb-os-discovery.html), which will interact with the SMB service to extract the reported operating system version.
