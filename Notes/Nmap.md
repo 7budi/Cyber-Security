@@ -14,3 +14,5 @@ Sensitive data, including credentials(is the information required to authenticat
 It is crucial to enumerate this sizeable potential attack surface carefully. `Nmap` has many scripts for enumerating(is the process of gathering information about a target system or network) SMB, such as [smb-os-discovery.nse](https://nmap.org/nsedoc/scripts/smb-os-discovery.html), which will interact with the SMB service to extract the reported operating system version.
 ## Shares
 SMB allows users and administrators to share folders and make them accessible remotely by others users.
+Often these shares have files in them that contain sensitive information such as passwords.
+A tool that can enumerate and interact with SMB shares is [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html). The `-L` flag specifies that we want to retrieve a list of available shares on the remote host, while `-N` suppresses the password prompt.
