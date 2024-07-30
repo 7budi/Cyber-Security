@@ -7,4 +7,4 @@ The -sV parameter instructs Nmap to perform a version scan.
 
 #  Attacking Network Services
 ## FTP
-FTP(File transfer Protocol) is a standard protocol, and this ser
+FTP(File transfer Protocol) is a standard protocol, and this service can often contain interesting data.
