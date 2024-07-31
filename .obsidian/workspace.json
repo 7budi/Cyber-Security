@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Web Enumeration.md",
+                "file": "Notes/MORE/mo1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Web Enumeration.md",
+                "file": "Notes/MORE/mo1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Web Enumeration.md",
+                "file": "Notes/MORE/mo1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Web Enumeration.md"
+                "file": "Notes/MORE/mo1.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +156,13 @@
   },
   "active": "e25d3b63915238d6",
   "lastOpenFiles": [
-    "Notes/Nmap.md",
-    "Notes/Web Enumeration.md",
-    "Notes/Service Scanning.md",
+    "Notes/Public Exploits.md",
     "Notes/Common Terms.md",
+    "Notes/MORE/mo1.md",
+    "Notes/MORE",
+    "Notes/Service Scanning.md",
+    "Notes/Web Enumeration.md",
+    "Notes/Nmap.md",
     "Notes/Connecting Using VPN.md",
     "README.md",
     "Notes"
