@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MORE/mo1.md",
+                "file": "Notes/Public Exploits.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MORE/mo1.md",
+                "file": "Notes/Public Exploits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/MORE/mo1.md",
+                "file": "Notes/Public Exploits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MORE/mo1.md"
+                "file": "Notes/Public Exploits.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,9 +157,9 @@
   },
   "active": "e25d3b63915238d6",
   "lastOpenFiles": [
+    "Notes/MORE/mo1.md",
     "Notes/Public Exploits.md",
     "Notes/Common Terms.md",
-    "Notes/MORE/mo1.md",
     "Notes/MORE",
     "Notes/Service Scanning.md",
     "Notes/Web Enumeration.md",
