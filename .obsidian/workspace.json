@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Shells/Reverse Shell.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Shells/Reverse Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Shells/Reverse Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Shells/Reverse Shell.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -155,12 +153,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e25d3b63915238d6",
+  "active": "e71d04c9b3d76c43",
   "lastOpenFiles": [
+    "Untitled.md",
+    "README.md",
+    "Notes/Shells/Reverse Shell.md",
     "Notes/Shells/Web Shell.md",
     "Notes/Types of Shells.md",
     "Notes/Shells/Bind Shell.md",
-    "Notes/Shells/Reverse Shell.md",
     "Notes/Shells",
     "Notes/Public Exploits.md",
     "Notes/MORE/mo1.md",
@@ -170,7 +170,6 @@
     "Notes/Web Enumeration.md",
     "Notes/Nmap.md",
     "Notes/Connecting Using VPN.md",
-    "README.md",
     "Notes"
   ]
 }
