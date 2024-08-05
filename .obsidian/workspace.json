@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Types of Shells.md",
+                "file": "Notes/Shells/Reverse Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Types of Shells.md",
+                "file": "Notes/Shells/Reverse Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Types of Shells.md",
+                "file": "Notes/Shells/Reverse Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Types of Shells.md"
+                "file": "Notes/Shells/Reverse Shell.md"
               }
             }
           },
@@ -157,11 +157,11 @@
   },
   "active": "e25d3b63915238d6",
   "lastOpenFiles": [
+    "Notes/Types of Shells.md",
     "Notes/Shells/Reverse Shell.md",
     "README.md",
     "Untitled.md",
     "Notes/Shells/Web Shell.md",
-    "Notes/Types of Shells.md",
     "Notes/Shells/Bind Shell.md",
     "Notes/Shells",
     "Notes/Public Exploits.md",
