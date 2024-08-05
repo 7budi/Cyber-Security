@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Privilege Escalation.md",
+                "file": "Notes/Transferring Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Privilege Escalation.md",
+                "file": "Notes/Transferring Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Privilege Escalation.md",
+                "file": "Notes/Transferring Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Privilege Escalation.md"
+                "file": "Notes/Transferring Files.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,10 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10c9979c27085287",
+  "active": "e25d3b63915238d6",
   "lastOpenFiles": [
-    "Notes/Shells/Bind Shell.md",
     "Notes/Privilege Escalation.md",
+    "Notes/Transferring Files.md",
+    "Notes/Shells/Bind Shell.md",
     "Notes/Shells/Reverse Shell.md",
     "Notes/Types of Shells.md",
     "README.md",
