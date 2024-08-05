@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Shells/Bind Shell.md",
+                "file": "Notes/Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Shells/Bind Shell.md",
+                "file": "Notes/Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Shells/Bind Shell.md",
+                "file": "Notes/Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Shells/Bind Shell.md"
+                "file": "Notes/Privilege Escalation.md"
               }
             }
           },
@@ -157,12 +157,13 @@
   },
   "active": "e25d3b63915238d6",
   "lastOpenFiles": [
+    "Notes/Shells/Bind Shell.md",
+    "Notes/Privilege Escalation.md",
     "Notes/Shells/Reverse Shell.md",
     "Notes/Types of Shells.md",
     "README.md",
     "Untitled.md",
     "Notes/Shells/Web Shell.md",
-    "Notes/Shells/Bind Shell.md",
     "Notes/Shells",
     "Notes/Public Exploits.md",
     "Notes/MORE/mo1.md",
