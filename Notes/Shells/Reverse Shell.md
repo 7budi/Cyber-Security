@@ -11,3 +11,5 @@ With this listener in place, we can execute a `reverse shell command` that conne
 | `-n`      | Disable DNS resolution and only connect from/to IPs, to speed up the connection.    |     |     |
 | `-p 1234` | Port number `netcat` is listening on, and the reverse connection should be sent to. |     |     |
 
+Reverse shell can be explained as a target(victim) connected to us.
+the target connects back to us.
