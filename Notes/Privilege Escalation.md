@@ -24,3 +24,18 @@ Another critical aspect to look for after gaining access to a server is the priv
 3. Windows Token Privileges
 
 sudo -l allow us to know what privilege do we have.
+
+# 4. Scheduled Tasks
+In both linux and window,there are methods to have script run at a specific interval to carry out tasks.
+There are usually two ways to take advantage of scheduled tasks (Windows) or cron jobs (Linux) to escalate our privileges:
+
+1. Add new scheduled tasks/cron jobs
+2. Trick them to execute a malicious software
+
+# 5. Exposed Credentials
+Next, we can look for files we can read and see if they contain any exposed credentials. This is very common with `configuration` files, `log` files, and user history files (`bash_history` in Linux and `PSReadLine` in Windows). The enumeration scripts we discussed at the beginning usually look for potential passwords in files and provide them to us.
+
+We may also use the user credentials to `ssh` into the server as that user.
+
+# 6. SSH Keys
+Finally, let us discuss SSH keys. If we have read access over the `.ssh` directory for a specific user, we may read their private ssh keys found in `/home/user/.ssh/id_rsa` or `/root/.ssh/id_rsa`, and use it to log in to the server. If we can read the `/root/.ssh/` directory and can read the `id_rsa` file, we can copy it to our machine and use the `-i` flag to log in with it.
